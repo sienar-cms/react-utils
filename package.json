@@ -32,7 +32,7 @@
 		"Sienar",
 		"React"
 	],
-	"author": "Christian LeVesque <christian@levesque.dev>",
+	"author": "Christian LeVesque <christian@levesque.dev> (https://levesque.dev)",
 	"license": "Apache-2.0",
 	"bugs": {
 		"url": "https://github.com/sienar-cms/react-utils/issues"
