@@ -6,7 +6,8 @@
 	"module": "dist/sienar-react-utils.mjs",
 	"types": "dist/index.d.ts",
 	"files": [
-		"/dist"
+		"/dist",
+		"/LICENSE.txt"
 	],
 	"scripts": {
 		"build": "tsc -b && vite build"
