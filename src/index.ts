@@ -46,3 +46,9 @@ export const validators = internalValidators;
 export { default as setup } from '@/setup.ts';
 
 // endregion
+
+// region Dev Utilities
+
+export * from '@/externals.ts';
+
+//
