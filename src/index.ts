@@ -3,7 +3,7 @@
 export type * from '@components/Authorize.tsx';
 export { default as Authorize } from '@components/Authorize.tsx';
 export type * from '@components/AuthorizeRoute.tsx';
-export { default as Authorizeroute } from '@components/AuthorizeRoute.tsx';
+export { default as AuthorizeRoute } from '@components/AuthorizeRoute.tsx';
 export { default as AuthProvider } from '@components/AuthProvider.tsx';
 export { default as InfrastructureProvider } from '@components/InfrastructureProvider.tsx';
 
