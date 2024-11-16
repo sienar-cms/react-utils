@@ -3,10 +3,12 @@
 	"version": "0.1.0",
 	"description": "A library of utilities for building Sienar client plugins in React",
 	"type": "module",
-	"module": "dist/sienar-react-utils.mjs",
+	"module": "dist/sienar-react-utils.js",
 	"types": "dist/index.d.ts",
 	"files": [
-		"/dist"
+		"/dist",
+		"/LICENSE.txt",
+		"/README.md"
 	],
 	"scripts": {
 		"build": "tsc -b && vite build"
@@ -32,10 +34,10 @@
 		"Sienar",
 		"React"
 	],
-	"author": "Christian LeVesque <christian@levesque.dev>",
+	"author": "Christian LeVesque <christian@levesque.dev> (https://levesque.dev)",
 	"license": "Apache-2.0",
 	"bugs": {
 		"url": "https://github.com/sienar-cms/react-utils/issues"
 	},
-	"homepage": "https://github.com/sienar-cms/react-utils#readme"
+	"homepage": "https://sienar.io"
 }

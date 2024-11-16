@@ -40,9 +40,6 @@ export type * from '@/utils.ts';
 export * from '@/utils.ts';
 export type * from '@/validation.ts';
 export * from '@/validation.ts';
-export type * from '@/validators.ts';
-import * as internalValidators from '@/validators.ts';
-export const validators = internalValidators;
 export { default as setup } from '@/setup.ts';
 
 // endregion
