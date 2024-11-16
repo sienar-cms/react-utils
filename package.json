@@ -1,6 +1,6 @@
 {
 	"name": "@sienar/react-utils",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A library of utilities for building Sienar client plugins in React",
 	"type": "module",
 	"module": "dist/sienar-react-utils.js",
