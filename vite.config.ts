@@ -2,7 +2,7 @@ import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import dts from 'vite-plugin-dts';
-import { viteExternals, viteOutputReplacementPaths } from './src/externals.ts';
+import { viteExternals } from './src/externals.ts';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,10 +14,7 @@ export default defineConfig({
 			formats: [ 'es' ]
 		},
 		rollupOptions: {
-			external: viteExternals,
-			output: {
-				paths: viteOutputReplacementPaths
-			}
+			external: viteExternals
 		}
 	},
 	optimizeDeps: {
