@@ -13,14 +13,16 @@
 	"scripts": {
 		"build": "tsc -b && vite build"
 	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-router-dom": "^6.26.2"
+	},
 	"devDependencies": {
 		"@types/node": "22.5.5",
 		"@types/react": "18.2.0",
 		"@types/react-dom": "18.2.0",
 		"@vitejs/plugin-react": "4.3.1",
-		"react": "18.3.1",
-		"react-dom": "18.3.1",
-		"react-router-dom": "6.26.2",
 		"typescript": "5.5.3",
 		"vite": "5.4.1",
 		"vite-plugin-dts": "4.3.0"
