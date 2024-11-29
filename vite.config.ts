@@ -16,7 +16,7 @@ export default defineConfig({
 	build: {
 		lib: {
 			entry: {
-				'sienar-react-utils': './src/index.ts'
+				'index': './src/index.ts'
 			},
 			formats: [ 'es' ]
 		},
