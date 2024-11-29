@@ -37,8 +37,5 @@ export default defineConfig({
 			'@': resolve(__dirname, './src'),
 			'@components': resolve(__dirname, './src/components')
 		}
-	},
-	define: {
-		'process.env.NODE_ENV': '"production"'
 	}
 });
