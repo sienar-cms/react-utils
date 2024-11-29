@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "A library of utilities for building Sienar client plugins in React",
 	"type": "module",
-	"main": "dist/sienar-react-utils.js",
+	"main": "dist/index.ts",
 	"types": "dist/index.d.ts",
 	"files": [
 		"/dist",
