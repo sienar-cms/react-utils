@@ -22,6 +22,9 @@ export default defineConfig({
 		},
 		rollupOptions: { external }
 	},
+	esbuild: {
+		minifyIdentifiers: false
+	},
 	optimizeDeps: {
 		exclude: external
 	},
