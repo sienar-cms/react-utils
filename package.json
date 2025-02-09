@@ -13,15 +13,23 @@
 	"scripts": {
 		"build": "tsc -b && vite build"
 	},
-	"dependencies": {
+	"peerDependencies": {
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
-		"react-router-dom": "^6.26.2"
+		"react-router-dom": "^6.26.2",
+		"@types/react": "^18.3.1",
+		"@types/react-dom": "^18.3.1"
+	},
+	"peerDependenciesMeta": {
+		"@types/react": {
+			"optional": true
+		},
+		"@types/react-dom": {
+			"optional": true
+		}
 	},
 	"devDependencies": {
-		"@types/node": "22.5.5",
-		"@types/react": "18.2.0",
-		"@types/react-dom": "18.2.0",
+		"@types/node": "^22.5.5",
 		"@vitejs/plugin-react": "4.3.1",
 		"typescript": "5.5.3",
 		"vite": "5.4.1",
