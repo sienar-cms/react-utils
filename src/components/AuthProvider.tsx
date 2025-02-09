@@ -42,7 +42,13 @@ export default function AuthProvider({ children }: PropsWithChildren) {
 	}
 
 	useEffect(() => {
-		(async () => await loadUserData())();
+		(async () => {
+			try {
+				await loadUserData();
+			} catch (e) {
+				console.error(e);
+			}
+		})();
 	}, []);
 
 	return (
