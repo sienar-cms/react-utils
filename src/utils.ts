@@ -144,3 +144,31 @@ export function getCookie(name: string): string|undefined {
 	}
 	return undefined;
 }
+
+/**
+ * Accepts any number of possibly-undefined strings and <code>Record<string, boolean></code> arguments and constructs a class list based on whether the values are truthy
+ *
+ * @param args The class names or object of class names
+ *
+ * @returns Space-separated CSS class names, if any. If none, returns <code>undefined</code>
+ */
+export function classNames(
+	...args: (string|Record<string, boolean>|null|undefined)[]
+): string|undefined {
+	const classes: string[] = [];
+
+	args.forEach(a => {
+		if (!a) return;
+
+		if (typeof a === 'string') {
+			classes.push(a);
+			return;
+		}
+
+		Object.keys(a).forEach(k => {
+			if (a[k]) classes.push(k);
+		})
+	})
+
+	return classes.length === 0 ? undefined : classes.join(' ');
+}
